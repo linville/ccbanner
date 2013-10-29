@@ -1,0 +1,11 @@
+<p><label>Login Banner</label>
+<%= text_area_tag 'settings[loginbanner]', @settings['loginbanner'], :cols => 80, :rows => 10 %>
+<br /><em>Text that will be displayed on the login page.</em></p>
+
+<p><label>Footer Text</label>
+<%= text_field_tag 'settings[hftext]', @settings['hftext'], :size => 80 %>
+<br /><em>Text that will be displayed on bottom of all pages.</em></p>
+
+<p><label>Background Color</label>
+<%= text_field_tag 'settings[hfbgcolor]', @settings['hfbgcolor'], :size => 7 %>
+<br /><em>Hexadecimal color for the background of the header. Green = '#00AA00' Red = '#AA0000'.</em></p>
