@@ -1,6 +1,7 @@
 <p><label>Login Banner</label>
-<%= text_area_tag 'settings[loginbanner]', @settings['loginbanner'], :cols => 80, :rows => 10 %>
-<br /><em>Text that will be displayed on the login page.</em></p>
+<%= text_area_tag 'settings[loginbanner]', @settings['loginbanner'], :cols => 80, :rows => 10, :class => 'wiki-edit' %>
+<em>Text that will be displayed on the login page.</em></p>
+<%= wikitoolbar_for 'settings_loginbanner' %>
 
 <p><label>Footer Text</label>
 <%= text_field_tag 'settings[hftext]', @settings['hftext'], :size => 80 %>
