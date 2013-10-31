@@ -4,7 +4,7 @@ Redmine::Plugin.register :ccbanner do
   name 'Common Criteria Banner'
   author 'Aaron Linville'
   description 'A plugin to display the banners required by the Common Criteria.'
-  version '0.0.1'
+  version '0.0.2'
   url 'https://github.com/linville/ccbanner'
   author_url 'http://www.linville.org'
 

@@ -1,12 +1,12 @@
 CCBanner
 ========
-CCBanner (Common Criteria Banner) is a [Redmine](http://www.redmine.org) plugin that enables login banners and sitewide footers for security markings as required by the [Common Criteria](http://www.commoncriteriaportal.org). The banner text is configurable along with the footer text. Additionally the background of the footer is also configureable.
+CCBanner (Common Criteria Banner) is a [Redmine](http://www.redmine.org) plugin that enables login banners and sitewide footers for security markings as required by the [Common Criteria](http://www.commoncriteriaportal.org). The banner text is configurable and supports the wiki markup. The footer text is also configureable. Additionally the background color of the footer is also configureable.
 
 A future upgrade will enable setting of a header on each page.
 
 Requirements
 ============
-Redmine 2+
+Redmine 2.3+ (may work on older versions but it hasn't been tested)
 
 Install
 ============
